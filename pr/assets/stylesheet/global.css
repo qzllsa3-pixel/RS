@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 100%;
+}
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+    &:visited {
+        color: inherit;
+    }
+}
+
+.row {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: inter;
+    src: url(../fonts/inter.ttf);
+}
